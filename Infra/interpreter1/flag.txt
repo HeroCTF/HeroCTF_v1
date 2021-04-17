@@ -1,0 +1,1 @@
+HeroCTF{os_sh0uld_b3_dis4bl3d_by_4dmin}

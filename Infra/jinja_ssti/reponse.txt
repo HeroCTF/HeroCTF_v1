@@ -1,0 +1,3 @@
+{{ config["SECRET_KEY"] }}
+
+j1nj4_1nj3c710n_700_345y_4_m3_10114320

